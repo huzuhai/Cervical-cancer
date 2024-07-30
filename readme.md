@@ -1,6 +1,16 @@
-original data:所有数据的原始来源文件
-dataset: 训练模型需要的数据集
-CV10: 10折交叉验证，运行之后会得到10个model，10个vali loader，一个csv文件，保存的是训练集和验证集的模型评价指标(部分)
-Cold_CV10: 冷启动下的10折交叉验证，运行之后会得到10个 model_cold，10个 vali loader_cold，一个csv文件保存的是训练集和验证集的模型评价指标(部分)
-G_test: 模型性能随着训练集药物数量的变化情况，运行之后会得到一个csv文件,保存的是模型的训练集和验证集评价指标
-vali:用以计算CV10、Cold_CV10场景下验证集的模型评价指标
+# Development and validation of machine learning models to evaluate the postoperative venous thromboembolism risk of cervical cancer patients in China
+  
+## File Description  
+article.R: The code used in the article.  
+webtool.R: The code for deploying a well-trained cervical cancer postoperative VTE (Venous Thromboembolism) risk assessment tool on shinyapp.io.  
+
+### Dataset  
+Analyzed during the current study are not publicly available due to privacy concerns but are available from the corresponding author upon reasonable request.  
+  
+## Links    
+[Mastering Shiny](https://mastering-shiny.org/index "shinyapp")   
+[moDel Agnostic Language for Exploration and eXplanation](https://github.com/ModelOriented/DALEX "DALEX")   
+[The caret Package](http://topepo.github.io/caret/index "caret")  
+
+## Contact
+If you have any questions or suggestions with this work, please let us know. Contact *Zuhai hu* at 2022120774@stu.cqmu.edu.cn
